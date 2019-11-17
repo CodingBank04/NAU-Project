@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NAU Project" />
         <module name="NA-GroupProject" />
         <module name="NAU-GROUP-PROJECT" />
         <module name="NAGroupProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="NAU Project" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
